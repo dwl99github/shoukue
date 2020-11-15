@@ -1,0 +1,16 @@
+server:
+  port: 8002
+spring:
+  application:
+    name: goods
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:7002/eureka
+  instance:
+    #    将IP注册到Eureka Server上，而如果不配置就是机器的主机名。
+    #    设置eureka.instance.prefer-ip-address为false时，那么注册到Eureka中的Ip地址就是本机的Ip地址；
+    #    如果设置了true并且也设置了eureka.instance.ip-address=ipValue那么就将此ipValue注册到Eureka中
+    prefer-ip-address: true
+    ip-address: goods

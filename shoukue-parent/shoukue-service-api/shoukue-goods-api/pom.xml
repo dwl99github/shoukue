@@ -3,19 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>shoukue-parent</artifactId>
+        <artifactId>shoukue-service-api</artifactId>
         <groupId>com.shoukue</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>shoukue-service</artifactId>
-    <packaging>pom</packaging>
-    <description>各业务微服务父工程</description>
-    <modules>
-        <module>shoukue-service-user</module>
-        <module>shoukue-service-goods</module>
-        <module>shoukue-service-common</module>
-    </modules>
+    <artifactId>shoukue-goods-api</artifactId>
+
 
 </project>

@@ -1,4 +1,4 @@
-package entity;
+package com.shoukue.service.common.entity;
 
 import java.util.List;
 
