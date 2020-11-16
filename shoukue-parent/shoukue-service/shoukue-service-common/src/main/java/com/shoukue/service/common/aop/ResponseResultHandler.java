@@ -35,6 +35,7 @@ public class ResponseResultHandler implements ResponseBodyAdvice<Object> {
     public Object beforeBodyWrite(Object o, MethodParameter methodParameter, MediaType mediaType, Class<? extends HttpMessageConverter<?>> aClass, ServerHttpRequest serverHttpRequest, ServerHttpResponse serverHttpResponse) {
 
         //重定返回体
-        return new Result<Object>(true, StatusCode.OK, "查询成功", o);
+        Result<Object> result = new Result<>(true, StatusCode.OK, "查询成功", o);
+        return result;
     }
 }
