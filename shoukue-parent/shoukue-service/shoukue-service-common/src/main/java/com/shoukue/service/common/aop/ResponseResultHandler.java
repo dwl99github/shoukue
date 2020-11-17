@@ -34,6 +34,9 @@ public class ResponseResultHandler implements ResponseBodyAdvice<Object> {
     @Override
     public Object beforeBodyWrite(Object o, MethodParameter methodParameter, MediaType mediaType, Class<? extends HttpMessageConverter<?>> aClass, ServerHttpRequest serverHttpRequest, ServerHttpResponse serverHttpResponse) {
 
+        if(((Objects.requireNonNull(methodParameter.getMethod())).getReturnType() == String.class)){
+            return o;
+        }
         //重定返回体
         Result<Object> result = new Result<>(true, StatusCode.OK, "查询成功", o);
         return result;

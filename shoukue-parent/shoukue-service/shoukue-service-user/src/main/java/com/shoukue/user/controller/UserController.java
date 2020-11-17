@@ -46,8 +46,10 @@ public class UserController {
      */
     @GetMapping("/test")
     public String testRibbon() {
-//        User user = new User();
+        User user = new User();
 //        user.setUsername(restTemplate.getForObject("http://goods/goods/test", String.class));
-        return restTemplate.getForObject("http://goods/goods/test", String.class);
+        String forObject = restTemplate.getForObject("http://goods/goods/test", String.class);
+        System.out.println(forObject);
+        return forObject;
     }
 }
