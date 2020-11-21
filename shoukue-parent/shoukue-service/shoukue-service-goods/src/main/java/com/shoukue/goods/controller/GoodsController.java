@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping("/goods")
-//@ResponseResult
+@ResponseResult
 public class GoodsController {
     @Autowired
     private GoodsService goodsService;
@@ -40,7 +40,7 @@ public class GoodsController {
      */
     @GetMapping("/test")
     public String test() {
-        return "goodsService port:" + port;
+        return "goodsService port!!!!!!!12:" + port;
 //        return new Result<User>(true, StatusCode.OK, "查询成功", user);
     }
 }
