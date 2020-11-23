@@ -11,10 +11,10 @@ import org.springframework.stereotype.Service;
 @Service
 public class UserServiceImpl implements UserService {
     @Override
-    public User findById(String id) {
+    public User findByUsername(String username) {
         User user = new User();
         user.setName("dwl");
-        user.setUsername("dwl99");
+        user.setUsername(username);
         user.setPassword("123456");
         return user;
     }

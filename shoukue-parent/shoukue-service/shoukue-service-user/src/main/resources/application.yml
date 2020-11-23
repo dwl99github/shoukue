@@ -13,4 +13,7 @@ eureka:
     #    设置eureka.instance.prefer-ip-address为false时，那么注册到Eureka中的Ip地址就是本机的Ip地址；
     #    如果设置了true并且也设置了eureka.instance.ip-address=ipValue那么就将此ipValue注册到Eureka中
     prefer-ip-address: true
-    ip-address: dwl
+#    ip-address: dwl
+feign:
+  hystrix:
+    enabled: true

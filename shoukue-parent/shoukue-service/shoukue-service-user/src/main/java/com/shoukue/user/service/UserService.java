@@ -8,5 +8,5 @@ import com.shoukue.user.pojo.User;
  * 2020/11/15
  */
 public interface UserService {
-    User findById(String id);
+    User findByUsername(String username);
 }

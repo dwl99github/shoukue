@@ -23,6 +23,13 @@
             <groupId>com.shoukue</groupId>
             <artifactId>shoukue-service-common</artifactId>
             <version>1.0-SNAPSHOT</version>
+            <!-- 开启多个实例时，屏蔽热部署 -->
+            <exclusions>
+                <exclusion>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-devtools</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>com.shoukue</groupId>
@@ -37,5 +44,6 @@
 
 
     </dependencies>
+
 
 </project>
