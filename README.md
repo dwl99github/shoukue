@@ -1,2 +1,2 @@
-# shoukue
-shoukue mall
+# soukue
+soukue mall
