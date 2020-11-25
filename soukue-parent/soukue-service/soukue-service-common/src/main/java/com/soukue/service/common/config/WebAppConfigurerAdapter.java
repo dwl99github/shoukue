@@ -8,7 +8,11 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
 /**
- * 继承WebMvcConfigurationSupport会让Spring-boot对mvc的自动配置失效
+ * WebMvcConfigurerAdapter 方法过时，有两种替代方案：
+ * 1、继承WebMvcConfigurationSupport
+ * 2、实现WebMvcConfigurer
+ * 但是继承WebMvcConfigurationSupport会让Spring-boot对mvc的自动配置失效。
+ * 根据项目情况选择。现在大多数项目是前后端分离，并没有对静态资源有自动配置的需求所以继承WebMvcConfigurationSupport也未尝不可。
  * @author dengwenlong
  * 2020/11/15
  */
