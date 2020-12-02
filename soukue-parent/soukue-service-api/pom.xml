@@ -15,6 +15,7 @@
     <modules>
         <module>soukue-user-api</module>
         <module>soukue-goods-api</module>
+        <module>soukue-search-api</module>
     </modules>
 
     <!--每个工程都有Pojo，都需要用到该包对应的注解-->
