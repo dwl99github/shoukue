@@ -3,20 +3,21 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>soukue-parent</artifactId>
+        <artifactId>soukue-service-api</artifactId>
         <groupId>com.soukue</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>soukue-service</artifactId>
-    <packaging>pom</packaging>
-    <description>各业务微服务父工程</description>
-    <modules>
-        <module>soukue-service-user</module>
-        <module>soukue-service-goods</module>
-        <module>soukue-service-common</module>
-        <module>soukue-service-search</module>
-    </modules>
+    <artifactId>soukue-search-api</artifactId>
+
+    <dependencies>
+
+        <!--SpringDataES依赖-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-elasticsearch</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>
