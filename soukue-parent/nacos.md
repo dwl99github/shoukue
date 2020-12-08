@@ -96,6 +96,8 @@ tag命令修改为规范的镜像：
 
 ```
 
+### docker 配置自动启动nacos，nacos指定ip
+
 ### docker compose
 
 
