@@ -1,4 +1,4 @@
-package entity;
+package com.soukue.entity;
 
 /****
  * @Author:www.itheima.com

@@ -1,7 +1,6 @@
-package entity;
+package com.soukue.entity;
 
 import java.io.UnsupportedEncodingException;
-import java.util.Date;
 import java.util.Random;
 
 /***

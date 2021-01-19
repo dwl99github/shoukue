@@ -1,4 +1,4 @@
-package entity;
+package com.soukue.entity;
 
 import java.lang.management.ManagementFactory;
 import java.net.InetAddress;
