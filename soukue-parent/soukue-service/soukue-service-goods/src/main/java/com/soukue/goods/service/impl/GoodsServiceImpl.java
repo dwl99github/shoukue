@@ -1,11 +1,11 @@
 package com.soukue.goods.service.impl;
 
-import com.soukue.goods.pojo.Goods;
-import com.soukue.goods.pojo.Spu;
+import com.soukue.api.user.feign.UserFeign;
+import com.soukue.pojo.goods.Goods;
+import com.soukue.pojo.goods.Spu;
 import com.soukue.goods.service.GoodsService;
 import com.soukue.service.common.entity.Result;
-import com.soukue.user.feign.UserFeign;
-import com.soukue.user.pojo.User;
+import com.soukue.pojo.user.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

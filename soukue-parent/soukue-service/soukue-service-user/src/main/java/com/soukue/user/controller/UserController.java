@@ -1,7 +1,7 @@
 package com.soukue.user.controller;
 
 import com.soukue.service.common.aop.ResponseResult;
-import com.soukue.user.pojo.User;
+import com.soukue.pojo.user.User;
 import com.soukue.user.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;

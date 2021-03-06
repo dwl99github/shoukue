@@ -1,6 +1,6 @@
 package com.soukue.user.service.impl;
 
-import com.soukue.user.pojo.User;
+import com.soukue.pojo.user.User;
 import com.soukue.user.service.UserService;
 import org.springframework.stereotype.Service;
 

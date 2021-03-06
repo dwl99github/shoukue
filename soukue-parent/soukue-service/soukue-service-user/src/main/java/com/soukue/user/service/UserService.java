@@ -1,6 +1,6 @@
 package com.soukue.user.service;
 
-import com.soukue.user.pojo.User;
+import com.soukue.pojo.user.User;
 
 /**
  * User业务层接口

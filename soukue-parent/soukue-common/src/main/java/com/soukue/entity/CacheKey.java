@@ -1,7 +1,7 @@
 package com.soukue.entity;
 
 /****
- * @Author:www.itheima.com
+ * @Author:soukue
  * @Description:
  *****/
 public class CacheKey {

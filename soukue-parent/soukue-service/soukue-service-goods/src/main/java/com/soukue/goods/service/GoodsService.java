@@ -1,6 +1,6 @@
 package com.soukue.goods.service;
 
-import com.soukue.goods.pojo.Goods;
+import com.soukue.pojo.goods.Goods;
 
 /**
  * User业务层接口

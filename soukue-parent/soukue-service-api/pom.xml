@@ -11,15 +11,23 @@
 
     <artifactId>soukue-service-api</artifactId>
     <packaging>pom</packaging>
-    <description>所有微服务的API抽取（JavaBean|Feign）</description>
+    <description>所有微服务的API抽取（dubbo|Feign）</description>
     <modules>
-        <module>soukue-user-api</module>
         <module>soukue-goods-api</module>
         <module>soukue-search-api</module>
+        <module>soukue-user-api</module>
+        <module>soukue-order-api</module>
     </modules>
 
     <!--每个工程都有Pojo，都需要用到该包对应的注解-->
     <dependencies>
+        <dependency>
+            <groupId>com.soukue</groupId>
+            <artifactId>soukue-bean</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+
         <dependency>
             <groupId>com.soukue</groupId>
             <artifactId>soukue-service-common</artifactId>

@@ -1,6 +1,6 @@
 package com.soukue.goods.controller;
 
-import com.soukue.goods.pojo.Goods;
+import com.soukue.pojo.goods.Goods;
 import com.soukue.goods.service.GoodsService;
 import com.soukue.service.common.aop.ResponseResult;
 import org.springframework.beans.factory.annotation.Autowired;
