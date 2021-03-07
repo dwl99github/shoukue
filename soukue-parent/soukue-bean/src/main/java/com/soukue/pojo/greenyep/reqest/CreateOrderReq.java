@@ -1,5 +1,6 @@
 package com.soukue.pojo.greenyep.reqest;
 
+import cn.hutool.crypto.SecureUtil;
 import lombok.Data;
 
 import java.io.Serializable;
@@ -33,5 +34,4 @@ public class CreateOrderReq implements Serializable {
     private String redirect_url;
     //签名串
     private String signature;
-
 }

@@ -8,7 +8,7 @@ import java.lang.annotation.Target;
 
 /**
  * 标记方法的返回值，是否需要包装
- * @author dengwenlong 2020/11/15
+ * @author soukue 2020/11/15
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target({ElementType.TYPE, ElementType.METHOD})

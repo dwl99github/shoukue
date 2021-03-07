@@ -5,7 +5,7 @@ import com.soukue.user.service.UserService;
 import org.springframework.stereotype.Service;
 
 /**
- * @author dengwenlong
+ * @author soukue
  * 2020/11/15
  */
 @Service

@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
 /**
- * @author dengwenlong
+ * @author soukue
  * 2020/11/15
  */
 @RestController

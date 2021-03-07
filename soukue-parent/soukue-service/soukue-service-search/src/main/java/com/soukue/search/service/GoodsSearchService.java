@@ -1,7 +1,7 @@
 package com.soukue.search.service;
 
 /**
- * @author dengwenlong
+ * @author soukue
  * 2020/11/25
  */
 public interface GoodsSearchService {
