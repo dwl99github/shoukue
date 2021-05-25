@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.Map;
+
 /**
  * @author soukue
  * 2020/11/15
@@ -22,13 +24,9 @@ public class OrderController {
     @Value("${server.port}")
     String port;
 
-    /***
-     * 根据ID查询User数据
-     * @param id
-     * @return
-     */
     @GetMapping("/test")
-    public String test() {
+    public String test(Map<String, Object> paramMap) {
+        System.out.println(paramMap);
         return "goodsService port!!!!!!!12:" + port;
 //        return new Result<User>(true, StatusCode.OK, "查询成功", user);
     }
